@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.fruits-bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+.fruits-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.mango-count {
+  color: #ffd569;
+}
+.banana-count {
+  color: #ffd569;
+}
+.fruits-count {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+}
+.items-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 20px;
+}
+.fruit-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .items-card-container {
+    flex-direction: row;
+  }
+  .fruits-count {
+    font-size: 38px;
+  }
+  .fruit-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+.button {
+  border: none;
+  background-color: #007bff;
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
